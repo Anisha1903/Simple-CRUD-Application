@@ -4,13 +4,13 @@ Build and manage your data effortlessly with this Simple CRUD Application built 
 
 ## Screenshots
 
-<img src="/screenshot1.JPG" alt="URL Shortener"/>
+<img src="/screenshots/screenshot1.JPG" alt="simple-crud-application"/>
 
-<img src="/screenshot2.JPG" alt="URL Shortener"/>
+<img src="/screenshots/screenshot2.JPG" alt="simple-crud-application"/>
 
 ## Demo Video
 
-[Watch the Demo Video](/video/Demo-Video.mp4)
+
 
 ## Features
 
