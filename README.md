@@ -10,7 +10,7 @@ Build and manage your data effortlessly with this Simple CRUD Application built 
 
 ## Demo Video
 
-(https://github.com/Anisha1903/Simple-CRUD-Application/assets/120788283/39f1221b-e845-49d8-bc2a-0a9ec4ec07eb)
+[Link](https://github.com/Anisha1903/Simple-CRUD-Application/assets/120788283/39f1221b-e845-49d8-bc2a-0a9ec4ec07eb)
 
 ## Features
 
