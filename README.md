@@ -2,15 +2,15 @@
 
 Build and manage your data effortlessly with this Simple CRUD Application built with Node.js, Express.js and MongoDB, this application enables you to perform Create, Read, Update, and Delete operations with ease.
 
-## Web App Link
-
-http://serene-headland-22338.herokuapp.com/
-
-## Screenshot
+## Screenshots
 
 <img src="/screenshot1.JPG" alt="URL Shortener"/>
 
 <img src="/screenshot2.JPG" alt="URL Shortener"/>
+
+## Demo Video
+
+[Watch the Demo Video](/video/Demo-Video.mp4)
 
 ## Features
 
