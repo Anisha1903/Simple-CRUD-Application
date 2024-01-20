@@ -1,0 +1,121 @@
+<%- include('layout/header') %>
+
+    <style>
+        .container {
+            margin-left: 113px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            width: 100%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 3px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 200px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .social-icons {
+            text-align: center;
+            margin-top: 3px;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto mt-4">
+                <div class="contact-form">
+                    <h2 class="text-center">Contact Us</h2>
+                    <form action="/contact" method="post" onsubmit="showAlert()">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="text-center">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/Anisha1903" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </div>
+
+    <%- include('layout/footer') %>
+
+        <script>
+            function showAlert() {
+                alert("Message submitted successfully!");
+            }
+        </script>

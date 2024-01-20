@@ -1,0 +1,91 @@
+<%- include('layout/header') %>
+
+    <style>
+        .container {
+            margin-left: 113px;
+        }
+
+        .custom-ident {
+            font-size: 16px;
+            left: 40%;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .developer {
+            margin: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            flex: 1;
+            max-width: 250px;
+            max-height: 500px;
+            border-radius: 10px;
+        }
+
+        .developer:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .developer-photo img {
+            max-width: 100%;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .developer-photo img:hover {
+            border-color: #0099cc;
+        }
+
+        .developer h3 {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .developer p {
+            font-size: 16px;
+            color: #888;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto mt-4">
+                <h1 class="text-center">
+                    <%= title %>
+                </h1>
+                <p class="lead text-center">
+                    Welcome to our Simple CRUD Application! This application allows you to manage and manipulate user
+                    data.
+                </p>
+                <p class="text-center">
+                    Our goal is to provide a straightforward and user-friendly interface for performing CRUD operations
+                    on user information.
+                </p>
+                <h2 class="text-center">About Project</h2>
+
+                <div class="custom-ident">
+                    <p> Our application enables you to effortlessly Create, Read,
+                        Update, and Delete user records. With a user-friendly interface designed for easy navigation, it
+                        ensures a seamless experience on various devices through responsive design. The application
+                        prioritizes secure data storage and retrieval, ensuring the safety of your valuable information.
+                        Additionally, our system is built for efficient and intuitive user management, making the
+                        handling of user information straightforward and effective.</p>
+                </div>
+
+                <h2 class="text-center mt-4">About Developer</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 text-center developer">
+                        <div class="developer-photo">
+                            <img src="/images/women1.jpg" alt="Anisha M" />
+                        </div>
+                        <h3>Anisha M</h3>
+                        <p>Full Stack Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('layout/footer') %>
