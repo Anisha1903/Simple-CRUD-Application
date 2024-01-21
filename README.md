@@ -2,13 +2,9 @@
 
 Build and manage your data effortlessly with this Simple CRUD Application built with Node.js, Express.js and MongoDB, this application enables you to perform Create, Read, Update, and Delete operations with ease.
 
-## Screenshots
-
-<img src="/screenshots/screenshot1.JPG" alt="simple-crud-application"/>
-
-<img src="/screenshots/screenshot2.JPG" alt="simple-crud-application"/>
-
 ## Demo Video
+
+Watch this informative video showcasing the features of the project.
 
 [Link](https://github.com/Anisha1903/Simple-CRUD-Application/assets/120788283/39f1221b-e845-49d8-bc2a-0a9ec4ec07eb)
 
