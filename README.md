@@ -40,6 +40,7 @@ Watch this informative video showcasing the features of the project.
 To run this project, you will need to add the following environment variables to your .env file
 
 `PORT = 5000`
+
 `MONGO_URI = mongodb+srv://<username>:<password>@cluster0.l1gld2z.mongodb.net/?retryWrites=true&w=majority`
 
 ## Documentation
